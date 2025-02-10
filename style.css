@@ -1,1 +1,45 @@
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto;
+    margin: 0px;
 
+}
+a{
+    text-decoration: none;
+}
+li{
+        
+}
+.header,
+.intro{
+
+    color: white; 
+    background-color: #1f2937;
+    display: flex;
+}
+.header{
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+#header{
+    font-size: 24px;
+}
+#h-link{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+}
